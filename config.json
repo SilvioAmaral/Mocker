@@ -1,0 +1,9 @@
+{
+    "folderPath": "data",
+    "proxy": false,
+    "forward": {
+        "hostname": "localhost",
+        "port": "8080",
+        "saveResponseToFile": true
+    }
+}

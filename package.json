@@ -1,0 +1,17 @@
+{
+  "name": "mocker",
+  "version": "0.0.1",
+  "description": "Simple mock server to help UI developers be more productive",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/mocker.js"
+  },
+  "dependencies": {
+    "express": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "author": "",
+  "license": "ISC"
+}
