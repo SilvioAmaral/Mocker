@@ -2,7 +2,7 @@
 
 ## Node.js HTTP Server with Request Forwarding and File Saving
 
-The idea behind this project is to act as a mock server to allow UI developers to work separately from the backend, even when servers are down. It will mimic 
+The idea behind this project is to act as a mock server to allow UI developers to work separately from the backend, even when servers are down. 
 
 This is a simple Node.js HTTP server that can serve local files, forward requests to another server, and save the response to files in multi-level directories. It's configured via a `config.json` file, and you can enable/disable forwarding and specify server details as needed.
 
@@ -20,13 +20,13 @@ The server's behavior is controlled through the `config.json` file:
 
 ```json
 {
-  "folderPath": "/path/to/local/files",
-  "forward": {
-    "enabled": true,
-    "hostname": "example.com",
-    "port": 80,
-    "saveResponseToFile": true
-  }
+    "folderPath": "data",
+    "proxy": false,
+    "forward": {
+        "hostname": "localhost",
+        "port": "8080",
+        "saveResponseToFile": true
+    }
 }
 ```
 
